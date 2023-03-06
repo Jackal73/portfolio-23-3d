@@ -20,12 +20,14 @@ const Navbar = () => {
           }}
         >
           <img src={mylogo} alt="logo" className="w-10 h-9 object-contain cursor-pointer " />
-          <p className="text-white text-[18px] cursor-pointer flex ml-[-5px]"> Shawn Kebel &nbsp;</p>
+          <p className="text-white text-[18px] cursor-pointer flex ml-[-5px] font-semibold"> Shawn Kebel &nbsp;</p>
 
           <span className="sm:block hidden">| </span>
 
-          <img src={logo2} alt="logo" className=" w-5 h-9 object-contain cursor-pointer  sm:block hidden " />
-          <p className="text-white text-[10px] ml-[-8px] cursor-pointer sm:block hidden ">kblDesigners </p>
+          <img src={logo2} alt="logo" className=" w-8 h-9 object-contain cursor-pointer  sm:block hidden " />
+          <p className="text-white text-[14px] ml-[-8px] font-semibold cursor-pointer sm:block hidden ">
+            kblDesigners{" "}
+          </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((Link) => (
